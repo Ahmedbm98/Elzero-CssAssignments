@@ -2,7 +2,7 @@
 It is an educational platform that provides many web development paths and learning programming in general, and study plans with tests and programming challenges to ensure understanding the code and applying it.
 
 # Css Course & Challanges
-[Css Course]([https://fast-kart-store.vercel.app/](https://elzero.org/study/css-2021-study-plan/))
+[Css Course](https://elzero.org/study/css-2021-study-plan/)
 
 
 # Contact Me

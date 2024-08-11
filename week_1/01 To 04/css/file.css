@@ -1,0 +1,53 @@
+/* Assginment 1 */
+/* Any Element With Class Title */
+.title {}
+
+/* Just Element with id nav */
+#nav {}
+
+/* Any Elements with Tag Name div */
+div {}
+
+/* Any Elements with Tag Name h2 */
+h2 {}
+
+
+/* Assginment 5 */
+/* Valid */
+._user-name {}
+
+/* Valid */
+.-user-name {}
+
+/* Not Valid */
+.1user-name {}
+
+/* Not Valid */
+.@user-name {}
+
+/* Not Valid */
+.user@name {}
+
+/* Valid */
+._user10name {}
+
+/* Valid */
+.u {}
+
+
+
+/* Assignment 6 */
+/* bad */
+.USERNAME {}
+
+/* bad */
+.UserName {}
+
+/* good */
+.user-name {}
+
+/* bad */
+.userName {}
+
+/* bad */
+.usernameprofile {}

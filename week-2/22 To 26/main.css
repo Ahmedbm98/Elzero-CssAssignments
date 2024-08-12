@@ -1,0 +1,58 @@
+/* Assignment 1 */
+.assign-1 div {
+   width: 400px;
+   margin-inline: auto;
+   padding: 20px;
+   /* border: 3px solid #FF5722; */
+   border: 3px solid #009688;
+   text-align: center;
+}
+
+.assign-1 div p {
+   background-color: #eee;
+   padding: 20px;
+   border: inherit;
+}
+
+/* Assignment 2 */
+div.assign-2,
+div.assign-3 {
+   background-color: #eee;
+   width: 800px;
+   padding: 20px;
+   margin-top: 20px;
+   margin-inline: auto;
+}
+
+div.assign-2 .one {
+   font-family: "Open Sans", sans-serif;
+   font-weight: 300;
+}
+
+div.assign-2 .two {
+   font-family: "Cairo", sans-serif;
+   font-weight: 700;
+}
+
+div.assign-2 .three {
+   font-family: "Jomhuria", serif;
+   font-weight: 400;
+}
+
+/* Assignment 3 */
+
+html {
+   font-size: 20px;
+}
+
+div.assign-3 .one {
+   font-size: 2.5rem;
+}
+
+div.assign-3 .two {
+   font-size: 2rem;
+}
+
+div.assign-3 .three {
+   font-size: 1.5rem;
+}

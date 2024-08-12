@@ -1,0 +1,59 @@
+/* Assignment 1 */
+div.assign-1,
+div.assign-2 {
+   background-color: #eee;
+   margin: 20px auto;
+   width: 300px;
+   padding: 10px;
+}
+
+div.assign-1 h2 {
+   text-align: center;
+   text-transform: capitalize;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: 100;
+   text-shadow: .5px .7px #F44336, 1px 1.5px #2196F3, 1.7px 2.1px #9C27B0;
+}
+
+/* Assignment 2 */
+div.assign-2 .one {
+   text-transform: uppercase;
+}
+
+div.assign-2 .two {
+   text-transform: capitalize;
+}
+
+div.assign-2 .three {
+   text-transform: lowercase;
+}
+
+/* Assginment 3 */
+div.assign-3 div {
+   background-color: #eee;
+   margin: 20px auto;
+   width: 300px;
+   padding: 10px;
+}
+
+div.assign-3 .three {
+   overflow: hidden;
+   max-height: 40px;
+   text-overflow: ellipsis;
+   text-wrap: nowrap;
+}
+
+/* Assignement 4 */
+div.assign-4 a {
+   text-decoration: none;
+   text-transform: capitalize;
+   color: #fff;
+   background-color: #009688;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 32px;
+   display: block;
+   width: 100px;
+   margin-inline: auto;
+   padding: 10px;
+   border-bottom: 5px solid #00514A;
+}

@@ -1,0 +1,33 @@
+/* Assginment 1 */
+.assign-1 .parent .child .title {
+   color: red;
+}
+
+.assign-1 span.title {
+   color: blue;
+}
+
+.assign-1 .parent p,
+.assign-1 div.title {
+   color: green;
+}
+
+/* Assignment 2 */
+div.assign-1,
+div.assign-2 {
+   width: 400px;
+   margin: 20px auto;
+   padding: 20px;
+   background-color: #eee;
+}
+
+div.assign-2 div {
+   margin-block: 10px;
+   padding: 20px;
+   max-height: 50px;
+   width: fit-content;
+   background-color: brown;
+   color: #fff;
+   text-transform: capitalize;
+   overflow: hidden;
+}

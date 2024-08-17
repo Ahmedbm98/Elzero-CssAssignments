@@ -1,0 +1,63 @@
+/* Assignmnet 1 */
+.assign-1 {
+   width: 800px;
+   margin-inline: auto;
+   background-color: #EEE;
+}
+
+.assign-1 div {
+   text-transform: capitalize;
+   background-color: #ddd;
+   float: left;
+   text-align: center;
+   padding: 20px 0;
+   margin-left: 15px;
+   margin-top: 15px;
+}
+
+.assign-1 .one {
+   width: calc(100% - 30px);
+}
+
+.assign-1 .two {
+   width: calc((100% - 60px) / 3);
+}
+
+.assign-1 .three {
+   width: calc((100% - 45px) / 2);
+}
+
+.assign-1 .four {
+   width: calc((100% - 75px)/4);
+   margin-bottom: 15px;
+}
+
+.clear {
+   clear: both;
+}
+
+/* 
+    Content Width IS: 100%
+    5 Spaces 5 * 15px => 75px
+    100% - 75px => .. Is Avialable Spaces
+    4 Elements The Width IS: (100% - 75px) / 4
+*/
+/* ============================ */
+
+.assign-2 div {
+   margin: 50px auto;
+   width: 300px;
+   font-weight: bold;
+   font-size: 1rem;
+   padding: 20px;
+   background-color: rgb(179, 179, 179);
+   color: black;
+}
+
+.assign-2 .one {
+   background-color: rgba(179, 179, 179, .3);
+}
+
+.assign-2 .two {
+   opacity: .3;
+}

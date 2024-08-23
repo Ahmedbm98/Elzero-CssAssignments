@@ -1,0 +1,122 @@
+/* Assignment One */
+.assign-1 {
+   margin: 20px auto;
+   text-align: center;
+}
+
+.assign-1 div {
+   width: 100px;
+   height: 100px;
+   background-color: #eee;
+   border-radius: 50%;
+   border: 2px solid #000;
+   margin: 20px;
+   display: inline-block;
+   position: relative;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   counter-increment: myCount;
+   box-shadow: -5px -5px #E91E63, 5px 5px #2196F3;
+}
+
+.assign-1 div::before {
+   content: "element";
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-transform: capitalize;
+}
+
+.assign-1 div::after {
+   content: counter(myCount);
+   background-color: #000;
+   color: #fff;
+   padding: 5px 10px;
+   border-radius: 50%;
+   position: absolute;
+   left: 50%;
+   top: -15px;
+   transform: translateX(-50%);
+}
+
+/* ================================= */
+/* Assignment Two */
+.assign-2 div {
+   width: 100px;
+   height: 100px;
+   background-color: #eee;
+   margin-inline: auto;
+   border-top-right-radius: 50px;
+   border-bottom-left-radius: 50px;
+   box-shadow: 0 0 13px #000 inset;
+}
+
+
+/* ================================= */
+/* Assignment Three */
+
+.assign-3 {
+   width: 550px;
+   margin-inline: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+}
+
+.assign-3::before {
+   content: "";
+   background-color: #2196F3;
+   position: absolute;
+   width: 3px;
+   height: 100%;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.assign-3::after {
+   content: "or";
+   position: absolute;
+   background-color: #2196F3;
+   color: #fff;
+   width: 40px;
+   height: 40px;
+   left: 50%;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 17px;
+   transform: translateX(-50%);
+   z-index: 1;
+}
+
+.assign-3 div {
+   background-color: #eee;
+   width: calc(90% / 2);
+   text-align: center;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.assign-3 div h2 {
+   background-color: #2196F3;
+   padding: 10px 0;
+   color: #fff;
+   margin-inline: 30px;
+   border-radius: 10px;
+}
+
+.assign-3 div p {
+   background-color: #ddd;
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-inline: auto;
+   font-size: 35px;
+   text-transform: capitalize;
+}

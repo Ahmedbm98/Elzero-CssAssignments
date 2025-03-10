@@ -1,0 +1,79 @@
+/* Assingment One */
+.assign-one {
+   width: 600px;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.assign-one div.parent {
+   background-color: #eee;
+   margin-top: 30px;
+   padding: 10px;
+   transition: margin-top 0.5s ease-in-out;
+}
+
+.assign-one div.parent:hover {
+   margin-top: 0px;
+}
+
+.assign-one div.parent div.child {
+   background-color: #ccc;
+   padding: 10px;
+   margin-top: 10px;
+   transition: margin-top .5s ease-in-out 0.5s;
+}
+
+.assign-one div.parent div.child:hover {
+   margin-top: 30px;
+}
+
+/* Assingment Two */
+.assign-two {
+   width: 400px;
+   margin: 0 auto;
+}
+
+.assign-two div {
+   border: none !important;
+   position: relative;
+   visibility: hidden;
+}
+
+.assign-two div::before {
+   content: "elzero";
+   background-color: #eee;
+   color: #000;
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   visibility: visible;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-transform: capitalize;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+
+
+/* Assingment Three */
+:root {
+   /* --mainColor: #009688;
+   --mainPadding: 10px; */
+}
+
+.assign-three {
+   width: 600px;
+   margin: 0 auto;
+}
+
+.assign-three div {
+   padding: var(--mainPadding, 10px);
+   border: 3px solid var(--mainColor, #000);
+   color: var(--mainColor, red);
+   margin-block: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}

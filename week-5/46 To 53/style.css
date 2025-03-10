@@ -1,0 +1,182 @@
+ * {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ /* ============================================ */
+ /* Assignment 1 */
+ .assing-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+ }
+
+ .assing-1 div {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: #ff5521;
+    box-shadow: 7px 0px #ff5521, -7px 0px #02a8f5;
+ }
+
+ /* ============================================ */
+ /* Assignment 2 */
+ .assgin-2 .parent {
+    width: 600px;
+    height: 300px;
+    margin-inline: auto;
+    padding: 1em;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+ }
+
+ .assgin-2 .parent div {
+    background-color: #ff5521;
+    color: #fff;
+    font-size: 1.4em;
+    width: calc(90% / 3);
+    text-align: center;
+    padding-block: 7px;
+ }
+
+ /* ============================================ */
+ /* Assignment 3 */
+ .assgin-3 .parent {
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+ }
+
+ .assgin-3 .parent div {
+    background-color: #617e8c;
+    color: #fff;
+    width: calc(90% / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    padding-block: 1em;
+ }
+
+ .assgin-3 .parent div.one {
+    order: 3;
+    align-self: flex-end;
+
+ }
+
+ .assgin-3 .parent div.two {
+    order: 2;
+ }
+
+ .assgin-3 .parent div.three {
+    align-self: flex-start;
+ }
+
+
+ .assgin-3 .parent div.five {
+    order: 1;
+ }
+
+ .assgin-3 .parent div.six {
+    order: -2;
+ }
+
+ /* ============================================ */
+ /* Assignment 4 */
+ .assgin-4 .parent {
+    width: 600px;
+    height: 300px;
+    margin-inline: auto;
+    background-color: #eee;
+    padding: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+ .assgin-4 .parent div {
+    background-color: #009687;
+    color: #fff;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+ }
+
+ .assgin-4 .parent div.one {
+    align-self: flex-end;
+    width: 50px;
+
+ }
+
+ .assgin-4 .parent div.two {
+    align-self: flex-start;
+    width: 400px;
+ }
+
+ .assgin-4 .parent div.three {
+    align-self: flex-end;
+    width: 50px;
+
+ }
+
+ /* ============================================ */
+ /* Assignment 5 */
+ .assgin-5 .parent {
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: .5em;
+ }
+
+ .assgin-5 .parent div {
+    width: calc(80% /4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 50%;
+ }
+
+ .assgin-5 .parent div.one {
+    background-color: #ff9900;
+    align-self: self-start;
+ }
+
+ .assgin-5 .parent div.two {
+    background-color: #8ac24a;
+    align-self: self-end;
+ }
+
+ .assgin-5 .parent div.three {
+    background-color: #785548;
+    align-self: self-start;
+ }
+
+ .assgin-5 .parent div.four {
+    order: -1;
+    background-color: #693bb8;
+    align-self: self-end;
+
+ }
+
+ /* ============================================ */
+ /* Assignment 6 */
